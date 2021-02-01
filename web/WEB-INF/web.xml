@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <servlet>
+        <servlet-name>createStudent</servlet-name>
+        <jsp-file>/create-student.jsp</jsp-file> 
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>createStudent</servlet-name>
+        <url-pattern>/create-student</url-pattern> 
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>studentList</servlet-name>
+        <jsp-file>/student-list.jsp</jsp-file> 
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>studentList</servlet-name>
+        <url-pattern>/student-list</url-pattern> 
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>editStudent</servlet-name>
+        <jsp-file>/edit-student.jsp</jsp-file> 
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>editStudent</servlet-name>
+        <url-pattern>/edit-student</url-pattern> 
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+        <servlet-name>createSubject</servlet-name>
+        <jsp-file>/create-subject.jsp</jsp-file> 
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>createSubject</servlet-name>
+        <url-pattern>/create-subject</url-pattern> 
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>subjectList</servlet-name>
+        <jsp-file>/subject-list.jsp</jsp-file> 
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>subjectList</servlet-name>
+        <url-pattern>/subject-list</url-pattern> 
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>editsubject</servlet-name>
+        <jsp-file>/edit-subject.jsp</jsp-file> 
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>editsubject</servlet-name>
+        <url-pattern>/edit-subject</url-pattern> 
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>subjectByStudent</servlet-name>
+        <jsp-file>/subject-by-student.jsp</jsp-file> 
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>subjectByStudent</servlet-name>
+        <url-pattern>/subject-by-student</url-pattern> 
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>addSubjectToStudent</servlet-name>
+        <jsp-file>/add-student-to-subject.jsp</jsp-file> 
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addSubjectToStudent</servlet-name>
+        <url-pattern>/add-student-to-subject</url-pattern> 
+    </servlet-mapping>
+</web-app>
