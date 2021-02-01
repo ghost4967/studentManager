@@ -1,4 +1,4 @@
-#Technologies/Drameworks
+# Technologies/Drameworks
 Tools and technologies used:
 -Java 6 
 -Jsp 2.2+ 
@@ -7,7 +7,7 @@ Tools and technologies used:
 -Servlet API - 2.5
 Frameworks used:
 -Bootstrap 4.3+
-#project
+# project
 use the DAO pattern to completely separate the business logic from the logic to access the data
 # studentManager
 Summary:
