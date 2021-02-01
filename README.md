@@ -8,7 +8,8 @@ Tools and technologies used:
 Frameworks used:
 - Bootstrap 4.3+
 # project
-use the DAO pattern to completely separate the business logic from the logic to access the data
+* use the DAO pattern to completely separate the business logic from the logic to access the data,
+use una arquitectura de MVC
 # studentManager
 Summary:
 Create a WEB Application for a system that assigns students to classes.  Use JSP and JSTL to create UI, feel free to use any CSS and or JS library.
