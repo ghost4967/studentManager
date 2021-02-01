@@ -1,12 +1,12 @@
 # Technologies/Drameworks
 Tools and technologies used:
--Java 6 
--Jsp 2.2+ 
--Apache Tomcat9 
--JSTL - 1.2.1
--Servlet API - 2.5
+- Java 6 
+- Jsp 2.2+ 
+- Apache Tomcat9 
+- JSTL - 1.2.1
+- Servlet API - 2.5
 Frameworks used:
--Bootstrap 4.3+
+- Bootstrap 4.3+
 # project
 use the DAO pattern to completely separate the business logic from the logic to access the data
 # studentManager
